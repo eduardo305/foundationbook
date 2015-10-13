@@ -246,6 +246,166 @@
 
 								</p>
 
+								<header class="major">
+									<h4>Visibility</h4>
+									<p>Is this to be shown for which screen size?</p>
+								</header>
+
+								<p>
+									Foundation gives you the ability to show or hide components from your page based on your screen size. The framework offers lots of helper classes to help you to decide where to change it. The classes names are very clear and are shown below:
+
+									<!-- HTML generated using hilite.me --><div style="background: #202020; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #6ab825; font-weight: bold">&lt;p</span> <span style="color: #bbbbbb">class=</span><span style="color: #ed9d13">&quot;panel&quot;</span><span style="color: #6ab825; font-weight: bold">&gt;</span>
+  <span style="color: #6ab825; font-weight: bold">&lt;strong</span> <span style="color: #bbbbbb">class=</span><span style="color: #ed9d13">&quot;show-for-small-only&quot;</span><span style="color: #6ab825; font-weight: bold">&gt;</span>This text is shown only on a small screen.<span style="color: #6ab825; font-weight: bold">&lt;/strong&gt;</span>
+  <span style="color: #6ab825; font-weight: bold">&lt;strong</span> <span style="color: #bbbbbb">class=</span><span style="color: #ed9d13">&quot;show-for-medium-up&quot;</span><span style="color: #6ab825; font-weight: bold">&gt;</span>This text is shown on medium screens and up.<span style="color: #6ab825; font-weight: bold">&lt;/strong&gt;</span>
+  <span style="color: #6ab825; font-weight: bold">&lt;strong</span> <span style="color: #bbbbbb">class=</span><span style="color: #ed9d13">&quot;show-for-medium-only&quot;</span><span style="color: #6ab825; font-weight: bold">&gt;</span>This text is shown only on a medium screen.<span style="color: #6ab825; font-weight: bold">&lt;/strong&gt;</span>
+  <span style="color: #6ab825; font-weight: bold">&lt;strong</span> <span style="color: #bbbbbb">class=</span><span style="color: #ed9d13">&quot;show-for-large-up&quot;</span><span style="color: #6ab825; font-weight: bold">&gt;</span>This text is shown on large screens and up.<span style="color: #6ab825; font-weight: bold">&lt;/strong&gt;</span>
+  <span style="color: #6ab825; font-weight: bold">&lt;strong</span> <span style="color: #bbbbbb">class=</span><span style="color: #ed9d13">&quot;show-for-large-only&quot;</span><span style="color: #6ab825; font-weight: bold">&gt;</span>This text is shown only on a large screen.<span style="color: #6ab825; font-weight: bold">&lt;/strong&gt;</span>
+  <span style="color: #6ab825; font-weight: bold">&lt;strong</span> <span style="color: #bbbbbb">class=</span><span style="color: #ed9d13">&quot;show-for-xlarge-up&quot;</span><span style="color: #6ab825; font-weight: bold">&gt;</span>This text is shown on xlarge screens and up.<span style="color: #6ab825; font-weight: bold">&lt;/strong&gt;</span>
+  <span style="color: #6ab825; font-weight: bold">&lt;strong</span> <span style="color: #bbbbbb">class=</span><span style="color: #ed9d13">&quot;show-for-xlarge-only&quot;</span><span style="color: #6ab825; font-weight: bold">&gt;</span>This text is shown only on an xlarge screen.<span style="color: #6ab825; font-weight: bold">&lt;/strong&gt;</span>
+  <span style="color: #6ab825; font-weight: bold">&lt;strong</span> <span style="color: #bbbbbb">class=</span><span style="color: #ed9d13">&quot;show-for-xxlarge-up&quot;</span><span style="color: #6ab825; font-weight: bold">&gt;</span>This text is shown on xxlarge screens and up.<span style="color: #6ab825; font-weight: bold">&lt;/strong&gt;</span>
+<span style="color: #6ab825; font-weight: bold">&lt;/p&gt;</span>
+</pre></div>
+									The above script shows you how to show a component depending on your screen size. In case you want to hide something, you can make use of the classes shown below:
+
+									<!-- HTML generated using hilite.me --><div style="background: #202020; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #6ab825; font-weight: bold">&lt;p</span> <span style="color: #bbbbbb">class=</span><span style="color: #ed9d13">&quot;panel&quot;</span><span style="color: #6ab825; font-weight: bold">&gt;</span>
+  <span style="color: #6ab825; font-weight: bold">&lt;strong</span> <span style="color: #bbbbbb">class=</span><span style="color: #ed9d13">&quot;hide-for-small-only&quot;</span><span style="color: #6ab825; font-weight: bold">&gt;</span>You are <span style="color: #6ab825; font-weight: bold">&lt;em&gt;</span>not<span style="color: #6ab825; font-weight: bold">&lt;/em&gt;</span> on a small screen.<span style="color: #6ab825; font-weight: bold">&lt;/strong&gt;</span>
+  <span style="color: #6ab825; font-weight: bold">&lt;strong</span> <span style="color: #bbbbbb">class=</span><span style="color: #ed9d13">&quot;hide-for-medium-up&quot;</span><span style="color: #6ab825; font-weight: bold">&gt;</span>You are <span style="color: #6ab825; font-weight: bold">&lt;em&gt;</span>not<span style="color: #6ab825; font-weight: bold">&lt;/em&gt;</span> on a medium, large, xlarge, or xxlarge screen.<span style="color: #6ab825; font-weight: bold">&lt;/strong&gt;</span>
+  <span style="color: #6ab825; font-weight: bold">&lt;strong</span> <span style="color: #bbbbbb">class=</span><span style="color: #ed9d13">&quot;hide-for-medium-only&quot;</span><span style="color: #6ab825; font-weight: bold">&gt;</span>You are <span style="color: #6ab825; font-weight: bold">&lt;em&gt;</span>not<span style="color: #6ab825; font-weight: bold">&lt;/em&gt;</span> on a medium screen.<span style="color: #6ab825; font-weight: bold">&lt;/strong&gt;</span>
+  <span style="color: #6ab825; font-weight: bold">&lt;strong</span> <span style="color: #bbbbbb">class=</span><span style="color: #ed9d13">&quot;hide-for-large-up&quot;</span><span style="color: #6ab825; font-weight: bold">&gt;</span>You are <span style="color: #6ab825; font-weight: bold">&lt;em&gt;</span>not<span style="color: #6ab825; font-weight: bold">&lt;/em&gt;</span> on a large, xlarge, or xxlarge screen.<span style="color: #6ab825; font-weight: bold">&lt;/strong&gt;</span>
+  <span style="color: #6ab825; font-weight: bold">&lt;strong</span> <span style="color: #bbbbbb">class=</span><span style="color: #ed9d13">&quot;hide-for-large-only&quot;</span><span style="color: #6ab825; font-weight: bold">&gt;</span>You are <span style="color: #6ab825; font-weight: bold">&lt;em&gt;</span>not<span style="color: #6ab825; font-weight: bold">&lt;/em&gt;</span> on a large screen.<span style="color: #6ab825; font-weight: bold">&lt;/strong&gt;</span>
+  <span style="color: #6ab825; font-weight: bold">&lt;strong</span> <span style="color: #bbbbbb">class=</span><span style="color: #ed9d13">&quot;hide-for-xlarge-up&quot;</span><span style="color: #6ab825; font-weight: bold">&gt;</span>You are <span style="color: #6ab825; font-weight: bold">&lt;em&gt;</span>not<span style="color: #6ab825; font-weight: bold">&lt;/em&gt;</span> on an xlarge screen and up.<span style="color: #6ab825; font-weight: bold">&lt;/strong&gt;</span>
+  <span style="color: #6ab825; font-weight: bold">&lt;strong</span> <span style="color: #bbbbbb">class=</span><span style="color: #ed9d13">&quot;hide-for-xlarge-only&quot;</span><span style="color: #6ab825; font-weight: bold">&gt;</span>You are <span style="color: #6ab825; font-weight: bold">&lt;em&gt;</span>not<span style="color: #6ab825; font-weight: bold">&lt;/em&gt;</span> on an xlarge screen.<span style="color: #6ab825; font-weight: bold">&lt;/strong&gt;</span>
+  <span style="color: #6ab825; font-weight: bold">&lt;strong</span> <span style="color: #bbbbbb">class=</span><span style="color: #ed9d13">&quot;hide-for-xxlarge-up&quot;</span><span style="color: #6ab825; font-weight: bold">&gt;</span>You are <span style="color: #6ab825; font-weight: bold">&lt;em&gt;</span>not<span style="color: #6ab825; font-weight: bold">&lt;/em&gt;</span> on an xxlarge screen.<span style="color: #6ab825; font-weight: bold">&lt;/strong&gt;</span>
+<span style="color: #6ab825; font-weight: bold">&lt;/p&gt;</span>
+</pre></div>
+
+									Foundation also provides a way to detect if the device orientation you are currently using. You can define classes to specify if something is going to display only on landscape or portrait orientation. Isn't it handy?
+
+									<!-- HTML generated using hilite.me --><div style="background: #202020; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #6ab825; font-weight: bold">&lt;p</span> <span style="color: #bbbbbb">class=</span><span style="color: #ed9d13">&quot;panel&quot;</span><span style="color: #6ab825; font-weight: bold">&gt;</span>
+  <span style="color: #6ab825; font-weight: bold">&lt;strong</span> <span style="color: #bbbbbb">class=</span><span style="color: #ed9d13">&quot;show-for-landscape&quot;</span><span style="color: #6ab825; font-weight: bold">&gt;</span>You are in landscape orientation.<span style="color: #6ab825; font-weight: bold">&lt;/strong&gt;</span>
+  <span style="color: #6ab825; font-weight: bold">&lt;strong</span> <span style="color: #bbbbbb">class=</span><span style="color: #ed9d13">&quot;show-for-portrait&quot;</span><span style="color: #6ab825; font-weight: bold">&gt;</span>You are in portrait orientation.<span style="color: #6ab825; font-weight: bold">&lt;/strong&gt;</span>
+<span style="color: #6ab825; font-weight: bold">&lt;/p&gt;</span>
+</pre></div>
+
+								</p>
+
+								<header class="major">
+										<h2>Buttons</h2>
+										<p>Just push the button</p>
+									</header>
+
+									<p>
+									Buttons are very convenient user insterface components used since the beginnings on the web. Foundation already offers a default style for them. Of course, you can customize them whenever you need.
+
+									The minimal markup for a button is:
+
+
+									<!-- HTML generated using hilite.me --><div style="background: #202020; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #6ab825; font-weight: bold">&lt;a</span> <span style="color: #bbbbbb">href=</span><span style="color: #ed9d13">&quot;#&quot;</span> <span style="color: #bbbbbb">class=</span><span style="color: #ed9d13">&quot;button&quot;</span><span style="color: #6ab825; font-weight: bold">&gt;</span>Default Button<span style="color: #6ab825; font-weight: bold">&lt;/a&gt;</span>
+</pre></div>
+
+
+
+									This is how you are going to render the default Foundation button on your page. Although we are using 'a' component, nothing stops us to use the 'button' html component. It will also render a special button for you.
+
+									Besides, it's look & feel, Foundation also supports different button sizes, such as tiny, small, large or expanded. You can also add a class 'disabled' on it, and it will display as it is disabled. Some helper classes can be used along with, so you define it as rounded button for example. Below are a few classes applied for buttons:
+
+									<!-- HTML generated using hilite.me --><div style="background: #202020; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #999999; font-style: italic">&lt;!-- Size Classes --&gt;</span>
+<span style="color: #6ab825; font-weight: bold">&lt;a</span> <span style="color: #bbbbbb">href=</span><span style="color: #ed9d13">&quot;#&quot;</span> <span style="color: #bbbbbb">class=</span><span style="color: #ed9d13">&quot;button tiny&quot;</span><span style="color: #6ab825; font-weight: bold">&gt;</span>Tiny Button<span style="color: #6ab825; font-weight: bold">&lt;/a&gt;</span>
+<span style="color: #6ab825; font-weight: bold">&lt;a</span> <span style="color: #bbbbbb">href=</span><span style="color: #ed9d13">&quot;#&quot;</span> <span style="color: #bbbbbb">class=</span><span style="color: #ed9d13">&quot;button small&quot;</span><span style="color: #6ab825; font-weight: bold">&gt;</span>Small Button<span style="color: #6ab825; font-weight: bold">&lt;/a&gt;</span>
+<span style="color: #6ab825; font-weight: bold">&lt;a</span> <span style="color: #bbbbbb">href=</span><span style="color: #ed9d13">&quot;#&quot;</span> <span style="color: #bbbbbb">class=</span><span style="color: #ed9d13">&quot;button&quot;</span><span style="color: #6ab825; font-weight: bold">&gt;</span>Default Button<span style="color: #6ab825; font-weight: bold">&lt;/a&gt;</span>
+<span style="color: #6ab825; font-weight: bold">&lt;a</span> <span style="color: #bbbbbb">href=</span><span style="color: #ed9d13">&quot;#&quot;</span> <span style="color: #bbbbbb">class=</span><span style="color: #ed9d13">&quot;button disabled&quot;</span><span style="color: #6ab825; font-weight: bold">&gt;</span>Disabled Button<span style="color: #6ab825; font-weight: bold">&lt;/a&gt;</span>
+<span style="color: #6ab825; font-weight: bold">&lt;a</span> <span style="color: #bbbbbb">href=</span><span style="color: #ed9d13">&quot;#&quot;</span> <span style="color: #bbbbbb">class=</span><span style="color: #ed9d13">&quot;button large&quot;</span><span style="color: #6ab825; font-weight: bold">&gt;</span>Large Button<span style="color: #6ab825; font-weight: bold">&lt;/a&gt;</span>
+<span style="color: #6ab825; font-weight: bold">&lt;a</span> <span style="color: #bbbbbb">href=</span><span style="color: #ed9d13">&quot;#&quot;</span> <span style="color: #bbbbbb">class=</span><span style="color: #ed9d13">&quot;button expand&quot;</span><span style="color: #6ab825; font-weight: bold">&gt;</span>Expanded Button<span style="color: #6ab825; font-weight: bold">&lt;/a&gt;</span>
+<span style="color: #999999; font-style: italic">&lt;!-- Radius Classes --&gt;</span>
+<span style="color: #6ab825; font-weight: bold">&lt;a</span> <span style="color: #bbbbbb">href=</span><span style="color: #ed9d13">&quot;#&quot;</span> <span style="color: #bbbbbb">class=</span><span style="color: #ed9d13">&quot;button round&quot;</span><span style="color: #6ab825; font-weight: bold">&gt;</span>Round Button<span style="color: #6ab825; font-weight: bold">&lt;/a&gt;</span>
+<span style="color: #6ab825; font-weight: bold">&lt;a</span> <span style="color: #bbbbbb">href=</span><span style="color: #ed9d13">&quot;#&quot;</span> <span style="color: #bbbbbb">class=</span><span style="color: #ed9d13">&quot;button radius&quot;</span><span style="color: #6ab825; font-weight: bold">&gt;</span>Radius Button<span style="color: #6ab825; font-weight: bold">&lt;/a&gt;</span>
+</pre></div>
+
+								You can also change the button colors easily. Foundation provides a few classes for standard states, such as success, alert, info, among others:
+
+								<!-- HTML generated using hilite.me --><div style="background: #202020; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #999999; font-style: italic">&lt;!-- Color Classes --&gt;</span>
+<span style="color: #6ab825; font-weight: bold">&lt;a</span> <span style="color: #bbbbbb">href=</span><span style="color: #ed9d13">&quot;#&quot;</span> <span style="color: #bbbbbb">class=</span><span style="color: #ed9d13">&quot;button&quot;</span><span style="color: #6ab825; font-weight: bold">&gt;</span>Default Button<span style="color: #6ab825; font-weight: bold">&lt;/a&gt;</span>
+<span style="color: #6ab825; font-weight: bold">&lt;a</span> <span style="color: #bbbbbb">href=</span><span style="color: #ed9d13">&quot;#&quot;</span> <span style="color: #bbbbbb">class=</span><span style="color: #ed9d13">&quot;button success&quot;</span><span style="color: #6ab825; font-weight: bold">&gt;</span>Success Button<span style="color: #6ab825; font-weight: bold">&lt;/a&gt;</span>
+<span style="color: #6ab825; font-weight: bold">&lt;a</span> <span style="color: #bbbbbb">href=</span><span style="color: #ed9d13">&quot;#&quot;</span> <span style="color: #bbbbbb">class=</span><span style="color: #ed9d13">&quot;button secondary&quot;</span><span style="color: #6ab825; font-weight: bold">&gt;</span>Secondary Button<span style="color: #6ab825; font-weight: bold">&lt;/a&gt;</span>
+<span style="color: #6ab825; font-weight: bold">&lt;a</span> <span style="color: #bbbbbb">href=</span><span style="color: #ed9d13">&quot;#&quot;</span> <span style="color: #bbbbbb">class=</span><span style="color: #ed9d13">&quot;button alert&quot;</span><span style="color: #6ab825; font-weight: bold">&gt;</span>Alert Button<span style="color: #6ab825; font-weight: bold">&lt;/a&gt;</span>
+<span style="color: #6ab825; font-weight: bold">&lt;a</span> <span style="color: #bbbbbb">href=</span><span style="color: #ed9d13">&quot;#&quot;</span> <span style="color: #bbbbbb">class=</span><span style="color: #ed9d13">&quot;button info&quot;</span><span style="color: #6ab825; font-weight: bold">&gt;</span>Info Button<span style="color: #6ab825; font-weight: bold">&lt;/a&gt;</span>
+<span style="color: #6ab825; font-weight: bold">&lt;a</span> <span style="color: #bbbbbb">href=</span><span style="color: #ed9d13">&quot;#&quot;</span> <span style="color: #bbbbbb">class=</span><span style="color: #ed9d13">&quot;button disabled&quot;</span><span style="color: #6ab825; font-weight: bold">&gt;</span>Disabled Button<span style="color: #6ab825; font-weight: bold">&lt;/a&gt;</span>
+</pre></div>
+								
+								</p>
+	
+
+								<header class="major">
+									<h2>Utility classes</h2>
+									<p>Floating, radius, rounding and aligning</p>
+								</header>
+
+								<p>
+									Lots of times we need to float and/or align components on the page. Foundation is very handy on this part. Lots of classes are offered to make your life easier. For more detail, you can check the documentation page which describes in details all of these classes. The link is here:
+
+									 <a href="http://foundation.zurb.com/docs/utility-classes.html">Foundation utility classes</a>
+								</p>
+
+								<header class="major">
+									<h2>Forms</h2>
+									<p>Components and more components</p>
+								</header>
+
+								<p>
+									It was never so simple to create a layout for a form like we can do now. Foundation mixes form tags with its grid system to produce powerful form layouts. A good approach is to create rows inside your form tag.
+
+									<br>
+									<img src="images/foundation-form.png" alt="foundation-form.png"/>
+
+									The below code will result in the layout displayed above:
+
+									 <!-- HTML generated using hilite.me --><div style="background: #202020; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #6ab825; font-weight: bold">&lt;form</span> <span style="color: #bbbbbb">action=</span><span style="color: #ed9d13">&quot;&quot;</span><span style="color: #6ab825; font-weight: bold">&gt;</span>
+           <span style="color: #6ab825; font-weight: bold">&lt;div</span> <span style="color: #bbbbbb">class=</span><span style="color: #ed9d13">&quot;row&quot;</span><span style="color: #6ab825; font-weight: bold">&gt;</span>
+             <span style="color: #6ab825; font-weight: bold">&lt;div</span> <span style="color: #bbbbbb">class=</span><span style="color: #ed9d13">&quot;small-12 columns&quot;</span><span style="color: #6ab825; font-weight: bold">&gt;</span>
+               <span style="color: #6ab825; font-weight: bold">&lt;label</span> <span style="color: #bbbbbb">for=</span><span style="color: #ed9d13">&quot;&quot;</span><span style="color: #6ab825; font-weight: bold">&gt;</span> 12 columns full width
+                 <span style="color: #6ab825; font-weight: bold">&lt;input</span> <span style="color: #bbbbbb">type=</span><span style="color: #ed9d13">&quot;text&quot;</span> <span style="color: #bbbbbb">placeholder=</span><span style="color: #ed9d13">&quot;12 columns&quot;</span><span style="color: #6ab825; font-weight: bold">&gt;</span>
+               <span style="color: #6ab825; font-weight: bold">&lt;/label&gt;</span>
+             <span style="color: #6ab825; font-weight: bold">&lt;/div&gt;</span>
+           <span style="color: #6ab825; font-weight: bold">&lt;/div&gt;</span>
+           
+           <span style="color: #6ab825; font-weight: bold">&lt;div</span> <span style="color: #bbbbbb">class=</span><span style="color: #ed9d13">&quot;row&quot;</span><span style="color: #6ab825; font-weight: bold">&gt;</span>
+             <span style="color: #6ab825; font-weight: bold">&lt;div</span> <span style="color: #bbbbbb">class=</span><span style="color: #ed9d13">&quot;small-12 columns&quot;</span><span style="color: #6ab825; font-weight: bold">&gt;</span>
+               <span style="color: #6ab825; font-weight: bold">&lt;label</span> <span style="color: #bbbbbb">for=</span><span style="color: #ed9d13">&quot;&quot;</span><span style="color: #6ab825; font-weight: bold">&gt;</span>12 columsn - select full width
+                 <span style="color: #6ab825; font-weight: bold">&lt;select</span> <span style="color: #bbbbbb">name=</span><span style="color: #ed9d13">&quot;&quot;</span> <span style="color: #bbbbbb">id=</span><span style="color: #ed9d13">&quot;&quot;</span><span style="color: #6ab825; font-weight: bold">&gt;</span>
+                   <span style="color: #6ab825; font-weight: bold">&lt;option</span> <span style="color: #bbbbbb">value=</span><span style="color: #ed9d13">&quot;1&quot;</span><span style="color: #6ab825; font-weight: bold">&gt;</span>1<span style="color: #6ab825; font-weight: bold">&lt;/option&gt;</span>
+                   <span style="color: #6ab825; font-weight: bold">&lt;option</span> <span style="color: #bbbbbb">value=</span><span style="color: #ed9d13">&quot;2&quot;</span><span style="color: #6ab825; font-weight: bold">&gt;</span>2<span style="color: #6ab825; font-weight: bold">&lt;/option&gt;</span>
+                   <span style="color: #6ab825; font-weight: bold">&lt;option</span> <span style="color: #bbbbbb">value=</span><span style="color: #ed9d13">&quot;3&quot;</span><span style="color: #6ab825; font-weight: bold">&gt;</span>3<span style="color: #6ab825; font-weight: bold">&lt;/option&gt;</span>
+                 <span style="color: #6ab825; font-weight: bold">&lt;/select&gt;</span>
+               <span style="color: #6ab825; font-weight: bold">&lt;/label&gt;</span>
+             <span style="color: #6ab825; font-weight: bold">&lt;/div&gt;</span>
+           <span style="color: #6ab825; font-weight: bold">&lt;/div&gt;</span>
+           
+           <span style="color: #6ab825; font-weight: bold">&lt;div</span> <span style="color: #bbbbbb">class=</span><span style="color: #ed9d13">&quot;row collapse&quot;</span><span style="color: #6ab825; font-weight: bold">&gt;</span>
+
+               <span style="color: #6ab825; font-weight: bold">&lt;label</span> <span style="color: #bbbbbb">for=</span><span style="color: #ed9d13">&quot;&quot;</span><span style="color: #6ab825; font-weight: bold">&gt;</span>prefix<span style="color: #6ab825; font-weight: bold">&lt;/label&gt;</span>
+               <span style="color: #6ab825; font-weight: bold">&lt;div</span> <span style="color: #bbbbbb">class=</span><span style="color: #ed9d13">&quot;small-3 columns&quot;</span><span style="color: #6ab825; font-weight: bold">&gt;&lt;span</span> <span style="color: #bbbbbb">class=</span><span style="color: #ed9d13">&quot;prefix&quot;</span><span style="color: #6ab825; font-weight: bold">&gt;</span>http://<span style="color: #6ab825; font-weight: bold">&lt;/span&gt;&lt;/div&gt;</span>
+               <span style="color: #6ab825; font-weight: bold">&lt;div</span> <span style="color: #bbbbbb">class=</span><span style="color: #ed9d13">&quot;small-9 columns&quot;</span><span style="color: #6ab825; font-weight: bold">&gt;</span>
+                 <span style="color: #6ab825; font-weight: bold">&lt;input</span> <span style="color: #bbbbbb">type=</span><span style="color: #ed9d13">&quot;text&quot;</span> <span style="color: #bbbbbb">placeholder=</span><span style="color: #ed9d13">&quot;prefix input&quot;</span><span style="color: #6ab825; font-weight: bold">&gt;</span>
+               <span style="color: #6ab825; font-weight: bold">&lt;/div&gt;</span>
+
+           <span style="color: #6ab825; font-weight: bold">&lt;/div&gt;</span>
+           
+           <span style="color: #6ab825; font-weight: bold">&lt;div</span> <span style="color: #bbbbbb">class=</span><span style="color: #ed9d13">&quot;row collapse&quot;</span><span style="color: #6ab825; font-weight: bold">&gt;</span>
+             <span style="color: #6ab825; font-weight: bold">&lt;div</span> <span style="color: #bbbbbb">class=</span><span style="color: #ed9d13">&quot;small-9 columns&quot;</span><span style="color: #6ab825; font-weight: bold">&gt;</span>
+               <span style="color: #6ab825; font-weight: bold">&lt;input</span> <span style="color: #bbbbbb">type=</span><span style="color: #ed9d13">&quot;text&quot;</span> <span style="color: #bbbbbb">placeholder=</span><span style="color: #ed9d13">&quot;postfix input&quot;</span><span style="color: #6ab825; font-weight: bold">&gt;</span>
+             <span style="color: #6ab825; font-weight: bold">&lt;/div&gt;</span>
+             <span style="color: #6ab825; font-weight: bold">&lt;div</span> <span style="color: #bbbbbb">class=</span><span style="color: #ed9d13">&quot;small-3 columns&quot;</span><span style="color: #6ab825; font-weight: bold">&gt;</span>
+               <span style="color: #6ab825; font-weight: bold">&lt;a</span> <span style="color: #bbbbbb">class=</span><span style="color: #ed9d13">&quot;button postfix&quot;</span><span style="color: #6ab825; font-weight: bold">&gt;</span>go<span style="color: #6ab825; font-weight: bold">&lt;/a&gt;</span>
+             <span style="color: #6ab825; font-weight: bold">&lt;/div&gt;</span>
+           <span style="color: #6ab825; font-weight: bold">&lt;/div&gt;</span>
+         <span style="color: #6ab825; font-weight: bold">&lt;/form&gt;</span>
+</pre></div>
+
+									For more references, click on this <a href="http://foundation.zurb.com/docs/components/forms.html">link</a>. It will lead you directly to the Foundation forms documentation.
+	
+
+								</p>
+
 							</div>
 						</section>
 
